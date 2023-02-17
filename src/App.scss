@@ -1,0 +1,80 @@
+.root {
+    width: 1100px;
+}
+
+.body {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    // background-image: url("./assets/images/background-1.jpg");
+    // background-repeat: no-repeat;
+
+    background-color: black;
+
+    .home {
+        // height: 400px;
+
+        display: flex;
+
+        height: 100vh;
+        align-items: center;
+        justify-content: center;
+
+        img {
+            height: 200px;
+        }
+
+        p {
+            color: white;
+            text-align: center;
+            font-size: 100px;
+            font-weight: 700;
+        }
+    }
+}
+
+.about_us {
+    width: 1100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: left;
+    min-height: 100vh;
+
+    .aboutUsHeader {
+        text-align: left;
+        width: 1100px;
+        color: rgb(254, 119, 26);
+        // border-bottom: 3px solid white;
+        font-size: 50px;
+        font-weight: 700;
+        margin-bottom: 4rem;
+    }
+
+    .content {
+        margin-top: 20px;
+        color: white;
+        font-size: 25px;
+        // width: 90vh;
+        // font-weight: ;
+    }
+}
+
+.teams {
+    width: 1100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    .teamHeader {
+        text-align: left;
+        width: 1100px;
+        color: rgb(254, 119, 26);
+        // border-bottom: 3px solid white;
+        font-size: 50px;
+        font-weight: 700;
+        margin-bottom: 4rem;
+    }
+}
